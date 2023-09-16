@@ -1,0 +1,24 @@
+CHENNAI
+{"primaryId":"b70b2f72-1e31-ee11-a81c-001dd80a6bbd","applications":["b70b2f72-1e31-ee11-a81c-001dd80a6bbd"],"scheduleDayId":"","scheduleEntryId":"","postId":"3f6bf614-b0db-ec11-a7b4-001dd80234f6"}
+
+{"primaryId":"b70b2f72-1e31-ee11-a81c-001dd80a6bbd","applications":["b70b2f72-1e31-ee11-a81c-001dd80a6bbd"],"scheduleDayId":"05bb23e6-7ac3-ed11-83fd-001dd803c225","scheduleEntryId":"","postId":"3f6bf614-b0db-ec11-a7b4-001dd80234f6"}
+
+HYDERABAD
+{"primaryId":"b70b2f72-1e31-ee11-a81c-001dd80a6bbd","applications":["b70b2f72-1e31-ee11-a81c-001dd80a6bbd"],"scheduleDayId":"","scheduleEntryId":"","postId":"436bf614-b0db-ec11-a7b4-001dd80234f6"}
+
+{"primaryId":"b70b2f72-1e31-ee11-a81c-001dd80a6bbd","applications":["b70b2f72-1e31-ee11-a81c-001dd80a6bbd"],"scheduleDayId":"4e7514f2-7ac3-ed11-83fd-001dd803c225","scheduleEntryId":"","postId":"436bf614-b0db-ec11-a7b4-001dd80234f6"}
+
+KOLKATA
+{"primaryId":"b70b2f72-1e31-ee11-a81c-001dd80a6bbd","applications":["b70b2f72-1e31-ee11-a81c-001dd80a6bbd"],"scheduleDayId":"","scheduleEntryId":"","postId":"466bf614-b0db-ec11-a7b4-001dd80234f6"}
+
+{"primaryId":"b70b2f72-1e31-ee11-a81c-001dd80a6bbd","applications":["b70b2f72-1e31-ee11-a81c-001dd80a6bbd"],"scheduleDayId":"098847c8-7ac3-ed11-83fd-001dd803c225","scheduleEntryId":"","postId":"466bf614-b0db-ec11-a7b4-001dd80234f6"}
+
+MUMBAI
+{"primaryId":"b70b2f72-1e31-ee11-a81c-001dd80a6bbd","applications":["b70b2f72-1e31-ee11-a81c-001dd80a6bbd"],"scheduleDayId":"","scheduleEntryId":"","postId":"486bf614-b0db-ec11-a7b4-001dd80234f6"}
+
+{"primaryId":"b70b2f72-1e31-ee11-a81c-001dd80a6bbd","applications":["b70b2f72-1e31-ee11-a81c-001dd80a6bbd"],"scheduleDayId":"920533da-7ac3-ed11-83fd-001dd803c225","scheduleEntryId":"","postId":"486bf614-b0db-ec11-a7b4-001dd80234f6"}
+
+NEW DELHI
+{"primaryId":"b70b2f72-1e31-ee11-a81c-001dd80a6bbd","applications":["b70b2f72-1e31-ee11-a81c-001dd80a6bbd"],"scheduleDayId":"","scheduleEntryId":"","postId":"4a6bf614-b0db-ec11-a7b4-001dd80234f6"}
+
+{"primaryId":"b70b2f72-1e31-ee11-a81c-001dd80a6bbd","applications":["b70b2f72-1e31-ee11-a81c-001dd80a6bbd"],"scheduleDayId":"499ee521-7bc3-ed11-83fd-001dd803ce8f","scheduleEntryId":"","postId":"4a6bf614-b0db-ec11-a7b4-001dd80234f6"}

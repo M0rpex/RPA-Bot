@@ -9,7 +9,7 @@ from aiogram.types import Message
 from aiogram.dispatcher import FSMContext
 
 from tgbot.buttons.reply_all import city_choose
-from tgbot.handlers.parser.site_parser import get_free_dates
+from tgbot.handlers.parser.site_parser import get_free_ofc_dates, get_free_cons_date
 from tgbot.test import show_json
 
 
@@ -47,13 +47,14 @@ async def user_choose_city(message: Message, state: FSMContext):
         city_name = 'new_delhi'
 
 
-    #await message.answer("Getting dates... 10 seconds")
-    #get_free_dates(city, city_name)
-    #time.sleep(10)
-    await message.answer("Loading dates... 5 seconds")
+    await message.answer("Getting dates... 10 seconds")
+    get_free_ofc_dates(city, city_name)
+    get_free_cons_date(city, city_name)
+    time.sleep(10)
+    await message.answer("Loading dates... 10 seconds")
     show_json(city_name)
-    time.sleep(5)
-    await message.answer(china(city_name, message.text))
+    time.sleep(10)
+    await message.answer(f"{china2(city, city_name)} {china(city_name, message.text)}")
 
 
 
@@ -134,14 +135,40 @@ def china(city, city_nm):
                 formatted_data[month_name]['days'].append(day)  # Добавляем день в список
 
     # Отправляем данные в чат бота
+    data_to_send = f"=================\n\n" \
+                   f"📌Biometric Information:\n\n" \
+                   f"Location: {city_nm} VAC\n\n"
+    for month_name, data in formatted_data.items():
+        year = data['year']
+        days = ', '.join(data['days'])
+        data_to_send += f"{year} - {month_name}:\n{days}\n"
+
+    return data_to_send
+
+
+def china2(city, city_nm):
+    with open(f'tgbot/dates/cons/{city}_date.txt', 'r') as file:
+        lines = file.readlines()
+
+    formatted_data = {}  # Создаем словарь для хранения отформатированных данных
+
+    for line in lines:
+        parts = line.strip().split('-')  # Разделяем строку на части по символу "-"
+        if len(parts) == 3:  # Убеждаемся, что строка содержит дату в формате "день-месяц-год"
+            day, month, year = parts
+            month_name = month_names.get(month, '')  # Получаем название месяца из словаря
+            if month_name:
+                if month_name not in formatted_data:
+                    formatted_data[month_name] = {'year': year, 'days': []}  # Если месяц встречается впервые, создаем структуру данных для него
+                formatted_data[month_name]['days'].append(day)  # Добавляем день в список
+
+    # Отправляем данные в чат бота
     data_to_send = f"AIR APPOINTMENTS\n" \
                    f"🇺🇸UPDATE🇺🇸\n" \
-                   f"Page: Interview\n" \
+                   f"Page: Biometric\n" \
                    f"Attempt: Fresher\n" \
-                   f"Visa Type: B1/B2\n\n" \
-                   f"=================\n\n" \
-                   f"Biometric Information:\n\n" \
-                   f"Location: {city_nm} VAC\n\n"
+                   f"Visa Type: B1/B2\n" \
+                   f"Location: {city_nm}\n\n"
     for month_name, data in formatted_data.items():
         year = data['year']
         days = ', '.join(data['days'])

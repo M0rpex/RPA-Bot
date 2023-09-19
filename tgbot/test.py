@@ -1,9 +1,11 @@
 import json
+import time
 
 from datetime import datetime
 
+
 def show_json(city):
-    with open(f'tgbot/list/{city}_dict.json', 'r') as file:
+    with open(f'tgbot/list/ofc/{city}_dict.json', 'r') as file:
         data = json.load(file)
 
     # Извлекаем список объектов ScheduleDays из данных
@@ -15,13 +17,34 @@ def show_json(city):
         date = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
         full_date = date.strftime("%d-%m-%Y")
         print(full_date)
-        file_path = f"tgbot/dates/{city}_date.txt"
+        file_path = f"tgbot/dates/ofc/{city}_date.txt"
         with open(file_path, "w") as file:
             for date1 in schedule_days:
                 dn = date1.get('Date', '')
                 date = datetime.strptime(dn, "%Y-%m-%dT%H:%M:%S")
                 full_date = date.strftime("%d-%m-%Y")
                 file.write(full_date + "\n")
+    time.sleep(5)
+    with open(f'tgbot/list/cons/{city}_dict.json', 'r') as file:
+        data = json.load(file)
+
+    # Извлекаем список объектов ScheduleDays из данных
+    schedule_days = data.get('ScheduleDays', [])
+
+    # Проходимся по объектам ScheduleDays и выводим информацию
+    for day in schedule_days:
+        date_str = day.get('Date', '')
+        date = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
+        full_date = date.strftime("%d-%m-%Y")
+        print(full_date)
+        file_path = f"tgbot/dates/cons/{city}_date.txt"
+        with open(file_path, "w") as file:
+            for date1 in schedule_days:
+                dn = date1.get('Date', '')
+                date = datetime.strptime(dn, "%Y-%m-%dT%H:%M:%S")
+                full_date = date.strftime("%d-%m-%Y")
+                file.write(full_date + "\n")
+
 
 
 #### Отслеживание изменений в словаре с использованием ID и Date

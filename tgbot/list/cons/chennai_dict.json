@@ -1,0 +1,60 @@
+{
+    "ScheduleDays": [
+        {
+            "ID": "7de73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-11T00:00:00"
+        },
+        {
+            "ID": "83e73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-12T00:00:00"
+        },
+        {
+            "ID": "8ae73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-13T00:00:00"
+        },
+        {
+            "ID": "9fe73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-14T00:00:00"
+        },
+        {
+            "ID": "a6e73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-18T00:00:00"
+        },
+        {
+            "ID": "aee73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-19T00:00:00"
+        },
+        {
+            "ID": "b6e73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-20T00:00:00"
+        },
+        {
+            "ID": "bee73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-21T00:00:00"
+        },
+        {
+            "ID": "c6e73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-24T00:00:00"
+        },
+        {
+            "ID": "cee73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-25T00:00:00"
+        },
+        {
+            "ID": "d8e73fce-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-02-27T00:00:00"
+        }
+    ],
+    "ScheduleEntries": null,
+    "CategoryID": "02e5f3a9-b3db-ec11-a7b4-001dd802327e",
+    "LocalizedGenericErrorMessage": null,
+    "HasError": false,
+    "ErrorCount": 0,
+    "Errors": {
+        "m_MaxCapacity": 2147483647,
+        "Capacity": 16,
+        "m_StringValue": "",
+        "m_currentThread": 0
+    },
+    "ErrorString": "<br>"
+}

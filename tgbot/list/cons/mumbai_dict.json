@@ -1,0 +1,24 @@
+{
+    "ScheduleDays": [
+        {
+            "ID": "91b6d79d-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2025-02-05T00:00:00"
+        },
+        {
+            "ID": "0ab7d79d-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2025-02-25T00:00:00"
+        }
+    ],
+    "ScheduleEntries": null,
+    "CategoryID": "c7e4f3a9-b3db-ec11-a7b4-001dd802327e",
+    "LocalizedGenericErrorMessage": null,
+    "HasError": false,
+    "ErrorCount": 0,
+    "Errors": {
+        "m_MaxCapacity": 2147483647,
+        "Capacity": 16,
+        "m_StringValue": "",
+        "m_currentThread": 0
+    },
+    "ErrorString": "<br>"
+}

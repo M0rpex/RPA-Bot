@@ -133,7 +133,7 @@ def china(city, city_nm, visa_id):
                        f"Location: {city_nm} VAC\n\n"
         for month_name, data in formatted_data.items():
             year = data['year']
-            days = ', '.join(data['days'])
+            days = ','.join(data['days'])
             data_to_send += f"{year} - {month_name}:\n{days}\n"
 
         return data_to_send
@@ -172,7 +172,7 @@ def china2(city, city_nm, visa, visa_id):
                        f"Location: {city_nm}\n\n"
         for month_name, data in formatted_data.items():
             year = data['year']
-            days = ', '.join(data['days'])
+            days = ','.join(data['days'])
             data_to_send += f"{year} - {month_name}:\n{days}\n\n"
 
         return data_to_send

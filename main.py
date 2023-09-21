@@ -1,6 +1,7 @@
 import os
 import sys
 
+import asyncio
 import logging
 
 from aiogram import executor, Dispatcher
@@ -9,6 +10,8 @@ from tgbot.bot_commands.commands import set_commands
 from tgbot.db.database import db
 from tgbot.utils.session import RequestsSession
 from tgbot.utils import setup_middlewares
+
+from tgbot.handlers.parser.site_parser import session_update_scheduler
 
 
 
@@ -21,6 +24,7 @@ async def on_startup(dp: Dispatcher):
     await dp.bot.get_updates(offset=-1)
     dp.bot['rSession'] = RequestsSession()
     await set_commands(dp)
+    await main()
 
 
 async def on_shutdown(dp: Dispatcher):
@@ -35,6 +39,21 @@ async def on_shutdown(dp: Dispatcher):
         os.system("cls")
     else:
         os.system("clear")
+
+# Запускаем планировщик задач
+async def scheduler():
+    tasks = [
+        asyncio.create_task(session_update_scheduler())
+    ]
+    await asyncio.gather(*tasks)
+
+
+async def main():
+    tasks = [
+        asyncio.create_task(dp.start_polling()),
+        asyncio.create_task(scheduler())
+    ]
+    await asyncio.gather(*tasks)
 
 
 

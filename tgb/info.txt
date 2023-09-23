@@ -1,0 +1,39 @@
+Free hours
+POST
+https://www.usvisascheduling.com/en-US/custom-actions/?route=/api/v1/schedule-group/get-family-ofc-schedule-entries&cacheString=1695415111761
+
+FORM DATA
+{"primaryId":"d41a88d3-dd57-ee11-a81c-001dd80824e3","applications":["d41a88d3-dd57-ee11-a81c-001dd80824e3"],"scheduleDayId":"94e53fce-7ac3-ed11-83fd-001dd803c225","scheduleEntryId":"","postId":"3f6bf614-b0db-ec11-a7b4-001dd80234f6"}
+ID in scheduledayid
+
+RESPONSE
+{"ScheduleDays":null,
+"ScheduleEntries": [
+    {
+        "ID":"ccbda2c1-8ec3-ed11-83fd-001dd803ce8f",
+        "EntriesAvailable":33,
+        "Time":"08:30"
+    },
+    {
+        "ID":"c1bda2c1-8ec3-ed11-83fd-001dd803ce8f",
+        "EntriesAvailable":46,
+        "Time":"09:00"
+    },
+    {"ID":"499d8bd3-8ec3-ed11-83fd-001dd803ce8f",
+    "EntriesAvailable":32,
+    "Time":"09:30"
+    }
+    ],
+"CategoryID":"00000000-0000-0000-0000-000000000000","LocalizedGenericErrorMessage":null,"HasError":false,"ErrorCount":0,"Errors":{"m_MaxCapacity":2147483647,"Capacity":16,"m_StringValue":"","m_currentThread":0},"ErrorString":"
+"}
+
+
+POST
+
+https://www.usvisascheduling.com/en-US/custom-actions/?route=/api/v1/schedule-group/schedule-ofc-appointments-for-family&cacheString=1695469729882
+
+FORM DATA
+{"primaryId":"d41a88d3-dd57-ee11-a81c-001dd80824e3","applications":["d41a88d3-dd57-ee11-a81c-001dd80824e3"],"scheduleDayId":"34bc23e6-7ac3-ed11-83fd-001dd803c225","scheduleEntryId":"6450d487-8ec3-ed11-83fd-001dd803c225","postId":"3f6bf614-b0db-ec11-a7b4-001dd80234f6"}
+ID in scheduleentryid
+
+RESPONSE

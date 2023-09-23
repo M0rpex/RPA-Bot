@@ -1,0 +1,68 @@
+{
+    "ScheduleDays": [
+        {
+            "ID": "d7b923e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-10T00:00:00"
+        },
+        {
+            "ID": "e0b923e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-11T00:00:00"
+        },
+        {
+            "ID": "e8b923e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-12T00:00:00"
+        },
+        {
+            "ID": "f1b923e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-13T00:00:00"
+        },
+        {
+            "ID": "fab923e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-17T00:00:00"
+        },
+        {
+            "ID": "03ba23e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-18T00:00:00"
+        },
+        {
+            "ID": "0aba23e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-19T00:00:00"
+        },
+        {
+            "ID": "13ba23e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-20T00:00:00"
+        },
+        {
+            "ID": "1bba23e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-21T00:00:00"
+        },
+        {
+            "ID": "22ba23e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-24T00:00:00"
+        },
+        {
+            "ID": "2bba23e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-25T00:00:00"
+        },
+        {
+            "ID": "35ba23e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-27T00:00:00"
+        },
+        {
+            "ID": "3aba23e6-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2025-03-28T00:00:00"
+        }
+    ],
+    "ScheduleEntries": null,
+    "CategoryID": "e0e4f3a9-b3db-ec11-a7b4-001dd802327e",
+    "LocalizedGenericErrorMessage": null,
+    "HasError": false,
+    "ErrorCount": 0,
+    "Errors": {
+        "m_MaxCapacity": 2147483647,
+        "Capacity": 16,
+        "m_StringValue": "",
+        "m_currentThread": 0
+    },
+    "ErrorString": "<br>"
+}

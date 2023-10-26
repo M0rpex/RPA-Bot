@@ -1,0 +1,60 @@
+{
+    "ScheduleDays": [
+        {
+            "ID": "c7b9576c-7ac3-ed11-83fd-001dd803c225",
+            "Date": "2023-11-30T00:00:00"
+        },
+        {
+            "ID": "4367ff73-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2023-12-01T00:00:00"
+        },
+        {
+            "ID": "8c67ff73-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2023-12-04T00:00:00"
+        },
+        {
+            "ID": "aa67ff73-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2023-12-05T00:00:00"
+        },
+        {
+            "ID": "ce67ff73-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2023-12-06T00:00:00"
+        },
+        {
+            "ID": "f167ff73-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2023-12-07T00:00:00"
+        },
+        {
+            "ID": "0a68ff73-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2023-12-08T00:00:00"
+        },
+        {
+            "ID": "9567ff73-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2023-12-11T00:00:00"
+        },
+        {
+            "ID": "d767ff73-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2023-12-13T00:00:00"
+        },
+        {
+            "ID": "8167ff73-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2023-12-14T00:00:00"
+        },
+        {
+            "ID": "1368ff73-7ac3-ed11-83fd-001dd803ce8f",
+            "Date": "2023-12-15T00:00:00"
+        }
+    ],
+    "ScheduleEntries": null,
+    "CategoryID": "dae4f3a9-b3db-ec11-a7b4-001dd802327e",
+    "LocalizedGenericErrorMessage": null,
+    "HasError": false,
+    "ErrorCount": 0,
+    "Errors": {
+        "m_MaxCapacity": 2147483647,
+        "Capacity": 16,
+        "m_StringValue": "",
+        "m_currentThread": 0
+    },
+    "ErrorString": "<br>"
+}

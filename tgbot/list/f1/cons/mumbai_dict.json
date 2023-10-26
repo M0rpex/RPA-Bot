@@ -1,0 +1,32 @@
+{
+    "ScheduleDays": [
+        {
+            "ID": "cc2d360d-691f-ee11-9cbd-001dd8081261",
+            "Date": "2023-12-12T00:00:00"
+        },
+        {
+            "ID": "aa6a3d0d-691f-ee11-9cbd-001dd805f47c",
+            "Date": "2023-12-13T00:00:00"
+        },
+        {
+            "ID": "de9e3609-691f-ee11-9cbd-001dd80aecd9",
+            "Date": "2023-12-14T00:00:00"
+        },
+        {
+            "ID": "6fc9530d-691f-ee11-9cbd-001dd805fb57",
+            "Date": "2023-12-15T00:00:00"
+        }
+    ],
+    "ScheduleEntries": null,
+    "CategoryID": "cae4f3a9-b3db-ec11-a7b4-001dd802327e",
+    "LocalizedGenericErrorMessage": null,
+    "HasError": false,
+    "ErrorCount": 0,
+    "Errors": {
+        "m_MaxCapacity": 2147483647,
+        "Capacity": 16,
+        "m_StringValue": "",
+        "m_currentThread": 0
+    },
+    "ErrorString": "<br>"
+}
